@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+BOT_TOKEN = os.getenv("8382175234:AAHPp10v13b5kzbuHESodrSdKfCKg6eudD4")
+OPENROUTER_API_KEY = os.getenv("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")
 MODEL = os.getenv("MODEL", "openai/gpt-3.5-turbo")
 
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
